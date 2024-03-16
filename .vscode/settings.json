@@ -1,0 +1,14 @@
+{
+  // riscv-pk: `../riscv-pk`
+  "terminal.integrated.env.linux": {
+    "EXT_PATH": "${workspaceFolder}/build/instal/bin:${workspaceFolder}/../riscv-pk/build",
+  },
+  "files.trimTrailingWhitespace": false,
+  "files.insertFinalNewline": false,
+  "files.exclude": {
+    // "build/*.cc": true,
+    "build/*.d": true,
+    "build/*.o": true,
+    "build/*.mk": true,
+  },
+}
